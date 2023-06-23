@@ -1,0 +1,21 @@
+import turtle as t1
+tu=t1.Turtle()
+tu.screen.bgcolor('black')
+tu.left(90)
+tu.color('white')
+tu.speed(5)
+tu.pensize(3)
+def draw(n):
+    if(n<10):
+        return
+    else:
+        tu.forward(n)
+        tu.left(45)
+        draw(3*n/4)
+        tu.right(90)
+        draw(3*n/4)
+        tu.left(45)
+        tu.backward(n)
+
+draw(80)
+tu=t1.done()

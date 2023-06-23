@@ -1,0 +1,18 @@
+import turtle
+window=turtle.Screen()
+window.title("python")
+window.setup(500,500)
+window.bgcolor('pink')
+Fir=turtle.Turtle()
+Fir.forward(100)
+Fir.left(90)
+Fir.forward(100)
+Fir.left(90)
+Fir.forward(100)
+Fir.left(90)
+Fir.forward(100)
+window.bye()
+
+
+
+window.exitonclick()

@@ -1,0 +1,20 @@
+import turtle as vector
+window= vector.Screen()
+gates = vector.Turtle()
+gates.shape('turtle')
+gates.shapesize(2)
+gates.color('Blue')
+print(gates.position())
+gates.backward(200)
+gates.lt(90)
+gates.forward(200)
+gates.penup()
+gates.goto(-200,200)
+gates.pendown()
+
+
+
+
+
+
+window.exitonclick()

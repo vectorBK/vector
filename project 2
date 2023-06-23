@@ -1,0 +1,16 @@
+import time
+import random
+from turtle import Turtle
+
+t=Turtle()
+t.pensize(1)
+t.color('Black','pink')
+t.begin_fill()
+while True:
+    t.forward(200)
+    t.left(170)
+    if(abs(t.pos())<1):    
+        break
+t.end_fill()
+
+time.sleep(5)
